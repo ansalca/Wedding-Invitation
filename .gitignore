@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Dev-server logs and local tooling state
+dev.log
+dev.err
+*.log
+
+# Environment — publishable key only, but keep it out of history
+.env
+.env.local
+.DS_Store
+
+# Test/QA artifacts
+qa/
+test-qa.*
+qa-out*

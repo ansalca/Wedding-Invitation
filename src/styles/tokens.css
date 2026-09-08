@@ -1,0 +1,98 @@
+/* =========================================================================
+   Design tokens — the single source of truth for the whole invitation.
+   Swap the palette block below to re-theme the entire site.
+   ========================================================================= */
+
+:root {
+  /* ---- Palette: deep emerald, antique gold, warm ivory ---- */
+  --ink:            #131E19;
+  --ink-soft:       #3B4A42;
+
+  --emerald-900:    #06251C;
+  --emerald-800:    #0A3327;
+  --emerald-700:    #0E4433;
+  --emerald-600:    #145441;
+  --emerald-glow:   #1C6B53;
+
+  --gold:           #C9A24B;
+  --gold-bright:    #EAD6A0;
+  --gold-deep:      #8E6B28;
+  --gold-wash:      rgba(201, 162, 75, 0.14);
+
+  --rose:           #8C3B4A;
+  --rose-light:     #C9868F;
+
+  /* Accents — burgundy for ceremony depth, peach & lavender for florals */
+  --burgundy:       #7A2434;
+  --burgundy-deep:  #5A1A26;
+  --peach:          #F4D9C6;
+  --lavender:       #E4D9EE;
+
+  --ivory:          #FBF7EE;
+  --sand:           #F2E9D7;
+  --sand-deep:      #E4D6BA;
+
+  /* ---- Semantic ---- */
+  --bg-light:       var(--ivory);
+  --bg-dark:        var(--emerald-800);
+  --text-on-light:  var(--ink);
+  --text-on-dark:   #F0E7D4;
+  --muted-on-light: rgba(19, 30, 25, 0.62);
+  --muted-on-dark:  rgba(240, 231, 212, 0.66);
+
+  --rule-light:     rgba(19, 30, 25, 0.14);
+  --rule-dark:      rgba(234, 214, 160, 0.22);
+  --rule-gold:      rgba(201, 162, 75, 0.42);
+
+  /* ---- Type ---- */
+  --font-display: 'Cormorant Garamond', 'Iowan Old Style', Georgia, serif;
+  --font-ui:      'Jost', 'Avenir Next', 'Segoe UI', system-ui, sans-serif;
+  --font-arabic:  'Amiri', 'Traditional Arabic', serif;
+  --font-arabic-display: 'Aref Ruqaa', 'Amiri', serif;
+
+  --t-hero:    clamp(3.2rem, 9vw, 7.5rem);
+  --t-display: clamp(2.4rem, 5.5vw, 4rem);
+  --t-title:   clamp(1.9rem, 3.6vw, 2.9rem);
+  --t-lead:    clamp(1.05rem, 1.6vw, 1.25rem);
+  --t-body:    1rem;
+  --t-small:   0.875rem;
+  --t-micro:   0.72rem;
+  --t-eyebrow: 0.68rem;
+
+  --track-eyebrow: 0.34em;
+  --track-wide:    0.22em;
+
+  /* ---- Space (8px base, modular) ---- */
+  --s-1: 0.25rem;
+  --s-2: 0.5rem;
+  --s-3: 0.75rem;
+  --s-4: 1rem;
+  --s-5: 1.5rem;
+  --s-6: 2rem;
+  --s-7: 3rem;
+  --s-8: 4rem;
+  --s-9: 6rem;
+  --s-10: 8rem;
+
+  --section-y: clamp(4.5rem, 10vw, 8.5rem);
+  --gutter:    clamp(1.25rem, 5vw, 3rem);
+  --measure:   68ch;
+  --max-w:     1120px;
+  --max-w-narrow: 720px;
+
+  /* ---- Depth & motion ---- */
+  --shadow-sm: 0 2px 10px rgba(6, 37, 28, 0.08);
+  --shadow-md: 0 14px 40px rgba(6, 37, 28, 0.12);
+  --shadow-lg: 0 32px 90px rgba(6, 37, 28, 0.20);
+  --shadow-ribbon: 0 10px 24px rgba(84, 14, 32, 0.28);
+
+  --ease-out:  cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-silk: cubic-bezier(0.76, 0, 0.20, 1);
+  --dur-fast:  0.28s;
+  --dur-mid:   0.6s;
+  --dur-slow:  1.05s;
+
+  --radius-sm: 4px;
+  --radius:    10px;
+  --radius-lg: 20px;
+}

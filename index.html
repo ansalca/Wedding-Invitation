@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0C3A2C" />
+    <title>Adhila &amp; Kabeer — Nikah Invitation</title>
+    <meta
+      name="description"
+      content="The Nikah of Adhila and Kabeer — Saturday, 09 January 2027, KJM Community Hall, Thrissur, Kerala."
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Jost:wght@300;400;500;600&family=Amiri:ital,wght@0,400;0,700;1,400&family=Aref+Ruqaa:wght@400;700&display=swap"
+    />
+    <script>
+      /* Resolve the motion decision before first paint so nothing flashes.
+         The OS "reduce motion" setting wins unless the URL overrides it
+         (?motion=on / ?motion=off) — see src/lib/motion.js, which keeps
+         this class in sync for the rest of the page's life. */
+      try {
+        var __mq = String(new URLSearchParams(location.search).get('motion'));
+        var __reduce =
+          window.matchMedia &&
+          window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        if (__mq === 'on' ? false : __mq === 'off' ? true : __reduce) {
+          document.documentElement.classList.add('motion-reduce');
+        }
+      } catch (e) {
+        /* Very old browsers: leave motion on rather than break the page. */
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
