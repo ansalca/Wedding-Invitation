@@ -18,3 +18,5 @@ dev.err
 qa/
 test-qa.*
 qa-out*
+.vercel
+.env*

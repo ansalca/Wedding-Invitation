@@ -196,12 +196,12 @@ export const rsvp = {
    ========================================================================= */
 export const giftRegistry = {
   upi: {
-    id: 'ansalanu919@ptaxis',
-    qrImage: '/photos/upi-qr.png',
+    id: 'afselmuhammed483@oksbi',
+    qrImage: '/photos/UPI QR.jpeg',
     openUpiApp: true,
   },
   amazon: {
-    url: '',
+    url: 'https://www.flipkart.com/q/wedding-gifts',
   },
 };
 

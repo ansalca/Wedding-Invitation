@@ -102,7 +102,8 @@ function AmazonCard() {
       <span className="gift-card__icon" aria-hidden="true">✿</span>
       <h3 className="gift-card__title">Gift from Our Wedding Registry</h3>
       <p className="gift-card__sub">
-        A little something from our registry — for those who would like to send a gift.
+        For those who would like to gift us something special,
+we've gathered a few things that will become part of our new beginning.
       </p>
 
       <a

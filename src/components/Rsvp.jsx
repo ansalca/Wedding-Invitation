@@ -15,7 +15,7 @@ const BLANK = {
   contact: '',
   guests: 2,
   attend: '',
-  message: '',
+  message: 'May Allah bless your marriage with love, peace, happiness, and endless barakah. Wishing you both a beautiful life together. 🤍',
 };
 
 const ATTENDING = 'Joyfully Attending';
