@@ -432,7 +432,7 @@ export const registry = [
     title: 'Gift a Contribution',
     desc: 'Send something towards our new home via UPI.',
     cta: 'Show UPI ID',
-    value: 'ansalanu919@ptaxis',
+    value: '9495060064@ptaxis',
     valueLabel: 'UPI ID',
   },
   {

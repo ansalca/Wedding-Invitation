@@ -19,12 +19,12 @@ export const families = {
   bride: {
     label: 'The Bride',
     role: 'Daughter of Mr. Ummer & Mrs. Habeetha',
-    note: 'Ottupara, Wadakkanchery, Thrissur, Kerala',
+    note: 'Narothuparambil (H), Ottupara, Thrissur, Kerala',
   },
   groom: {
     label: 'The Groom',
-    role: 'Son of Mr. Abdul Rahman & Mrs. Aysha',
-    note: 'Cheruthuruthi, Thrissur, Kerala',
+    role: 'Son of Mr. Hamsa & Mrs. Aysha',
+    note: 'Kondoorkkara Thodi (H), Shoranur, Palakkad, Kerala',
   },
 };
 

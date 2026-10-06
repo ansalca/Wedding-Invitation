@@ -1493,9 +1493,9 @@ html.motion-reduce .intro__photo img { animation: none; transform: scale(1.06); 
 /* …then the frame takes the film's own shape, so a 16:9 video fills it edge
    to edge instead of sitting between pillarbox bars. (aspect-ratio is not
    animatable, so no transition here — the crossfade below carries the moment.) */
-.film__frame.is-playing { aspect-ratio: 16 / 9; }
+.film__frame.is-playing { aspect-ratio: 9 / 16; }
 @media (max-width: 720px) {
-  .film__frame { aspect-ratio: 16 / 9; }
+  .film__frame { aspect-ratio: 9 / 16; }
 }
 
 .film__video {
