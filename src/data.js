@@ -23,7 +23,7 @@ export const families = {
   },
   groom: {
     label: 'The Groom',
-    role: 'Son of Mr. Hamsa & Mrs. Aysha',
+    role: 'Son of Mr. Hamsa & Mrs. Asiya',
     note: 'Kondoorkkara Thodi (H), Shoranur, Palakkad, Kerala',
   },
 };
