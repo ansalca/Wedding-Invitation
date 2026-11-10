@@ -11,7 +11,6 @@ import Film from './components/Film.jsx';
 import Gallery from './components/Gallery.jsx';
 import Venue from './components/Venue.jsx';
 import Rsvp from './components/Rsvp.jsx';
-import Registry from './components/Registry.jsx';
 import WishesWall from './components/WishesWall.jsx';
 import GuestWall from './components/GuestWall.jsx';
 import VideoWishes from './components/VideoWishes.jsx';
