@@ -255,7 +255,6 @@ export default function WeddingInvitation() {
         <Boundary><WeddingCard /></Boundary>
 
         <Rsvp />
-        <Registry />
 
         <Boundary><WishesWall /></Boundary>
         <Boundary><GuestWall /></Boundary>
